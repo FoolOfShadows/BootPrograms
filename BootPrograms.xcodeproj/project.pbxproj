@@ -11,6 +11,11 @@
 		7954FAA1234BD60C00A400B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7954FAA0234BD60C00A400B3 /* ViewController.swift */; };
 		7954FAA3234BD60E00A400B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7954FAA2234BD60E00A400B3 /* Assets.xcassets */; };
 		7954FAA6234BD60E00A400B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7954FAA4234BD60E00A400B3 /* Main.storyboard */; };
+		796BC724237B4913007ADC0E /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796BC723237B4913007ADC0E /* DropView.swift */; };
+		79B816522368E143002B1F22 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8164F2368E143002B1F22 /* Buttons.swift */; };
+		79B816532368E143002B1F22 /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B816502368E143002B1F22 /* GeneralExtensions.swift */; };
+		79B816542368E143002B1F22 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B816512368E143002B1F22 /* StringExtensions.swift */; };
+		79B816562368E1B6002B1F22 /* BootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B816552368E1B6002B1F22 /* BootModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		7954FAA5234BD60E00A400B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7954FAA7234BD60E00A400B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7954FAA8234BD60E00A400B3 /* BootPrograms.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BootPrograms.entitlements; sourceTree = "<group>"; };
+		796BC723237B4913007ADC0E /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		79B8164F2368E143002B1F22 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		79B816502368E143002B1F22 /* GeneralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralExtensions.swift; sourceTree = "<group>"; };
+		79B816512368E143002B1F22 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		79B816552368E1B6002B1F22 /* BootModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +66,24 @@
 				7954FAA4234BD60E00A400B3 /* Main.storyboard */,
 				7954FA9E234BD60C00A400B3 /* AppDelegate.swift */,
 				7954FAA0234BD60C00A400B3 /* ViewController.swift */,
+				79B816552368E1B6002B1F22 /* BootModel.swift */,
+				796BC723237B4913007ADC0E /* DropView.swift */,
 				7954FAA2234BD60E00A400B3 /* Assets.xcassets */,
 				7954FAA7234BD60E00A400B3 /* Info.plist */,
 				7954FAA8234BD60E00A400B3 /* BootPrograms.entitlements */,
+				79B8164E2368E143002B1F22 /* Extensions Etc */,
 			);
 			path = BootPrograms;
+			sourceTree = "<group>";
+		};
+		79B8164E2368E143002B1F22 /* Extensions Etc */ = {
+			isa = PBXGroup;
+			children = (
+				79B8164F2368E143002B1F22 /* Buttons.swift */,
+				79B816502368E143002B1F22 /* GeneralExtensions.swift */,
+				79B816512368E143002B1F22 /* StringExtensions.swift */,
+			);
+			path = "Extensions Etc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B816532368E143002B1F22 /* GeneralExtensions.swift in Sources */,
+				79B816562368E1B6002B1F22 /* BootModel.swift in Sources */,
+				79B816522368E143002B1F22 /* Buttons.swift in Sources */,
+				796BC724237B4913007ADC0E /* DropView.swift in Sources */,
+				79B816542368E143002B1F22 /* StringExtensions.swift in Sources */,
 				7954FAA1234BD60C00A400B3 /* ViewController.swift in Sources */,
 				7954FA9F234BD60C00A400B3 /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +300,7 @@
 				CODE_SIGN_ENTITLEMENTS = BootPrograms/BootPrograms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = VY6BVT84SC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = BootPrograms/Info.plist;
@@ -294,6 +323,7 @@
 				CODE_SIGN_ENTITLEMENTS = BootPrograms/BootPrograms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = VY6BVT84SC;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = BootPrograms/Info.plist;
